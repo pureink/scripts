@@ -65,7 +65,7 @@ async function createWidget(data) {
 
   const status = header.addStack();
   status.layoutHorizontally();
-  status.size = new Size(50, 20);
+  status.size = new Size(60, 20);
   const activeDot = status.addText("•");
   activeDot.textColor = Color.green();
   activeDot.font = new Font("Menlo", 20);
